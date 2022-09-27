@@ -1,3 +1,3 @@
 import home from "./home";
-
-export default [home];
+import aboutUs from "./about-us";
+export default [home,aboutUs];
