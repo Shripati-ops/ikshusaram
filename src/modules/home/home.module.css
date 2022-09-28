@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ribeye&display=swap');
+*{
+    box-sizing: border-box;
+ }
+.appHeader{
+    display:flex;
+    flex-direction: row;
+    background: #320101;
+    justify-content: space-around;
+    width:auto;
+    height: 252.4px;
+    left: -27px;
+    top: 0px;
+}
+
+.headerImgs{
+        position:relative;
+        width: 251px;
+        height: 233px;
+        top:20px;
+}
+.headerText{
+    
+    /* margin-left: 131px; */
+    color: #ffffff;
+    position: relative;
+    left: 9px;
+    top: 10px;
+    font-family: Poppins;
+    color:#ffff
+}
+.appLogo{
+    
+        position: relative;
+        width: 173px;
+        height: 37px;
+        left: 107px;
+        /* right: 256px; */
+        top: 8px;
+        text-align: center;
+        font-family: 'Ribeye';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 37px;
+        
+        color: #FDE65A;
+}
+
+.textContent{
+   display:grid 
+}
+.headerText2{
+    color: #ffffff;
+    position: relative;
+    font-family: Poppins;
+}

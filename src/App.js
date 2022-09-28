@@ -12,7 +12,7 @@ function App() {
      
         <div className="App">
           <header className="App-header">
-            <ul className="App-nav">
+            {/* <ul className="App-nav">
               
               {modules.map(module => ( // with a name, and routes  //{currentTab === module.moduleName ? 'active' : ''}
                  <li key={module.moduleName} className={currentTab === module.moduleName ? 'active' : ''}>
@@ -20,7 +20,7 @@ function App() {
                </li>
                   
               ))}
-            </ul>
+            </ul> */}
           </header>
           <div className="App-content">
             {modules.map(module => (
